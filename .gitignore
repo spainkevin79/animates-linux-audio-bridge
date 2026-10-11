@@ -1,0 +1,20 @@
+# Never check in installed/proprietary application binaries or reverse-engineering dumps.
+*.dll
+*.exe
+*.assets
+*.bundle
+*.il
+*.il.gz
+*.log
+*.pdb
+*.mdb
+*.zip
+*.pyc
+__pycache__/
+[Bb]in/
+[Oo]bj/
+[Bb]ep[Ii]n[Ee]x/
+[pP]refix/
+*.backup.*
+.DS_Store
+.env
